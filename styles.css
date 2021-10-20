@@ -36,7 +36,6 @@ section {
 
 section > .content {
     display: flex;
-    flex-direction: row;
     align-items: center;
     max-width: 80%;
     width: 80%;
@@ -75,7 +74,7 @@ header > .links {
 }
 
 header > .links > .link-container {
-    padding: 0.75rem;
+    padding: 0 0.75rem;
 }
 
 header > .links > .link-container > a:hover {
@@ -108,7 +107,7 @@ header > .links > .link-container > a:hover {
     color: inherit;
     background-color: var(--bright-blue);
     padding: 0.5rem 2rem;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 #first-section .sign-up-button:hover {
