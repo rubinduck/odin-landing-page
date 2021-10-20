@@ -24,6 +24,7 @@ a {
     --main-white: #F9FaF8;
     --pale-white: #E5E7EB;
     --bright-blue: #3882F6;
+    --brighter-blue: #2774f0;
 }
 
 section {
@@ -74,7 +75,12 @@ header > .links {
 }
 
 header > .links > .link-container {
-    padding: 0.5rem;
+    padding: 0.75rem;
+}
+
+header > .links > .link-container > a:hover {
+    position: relative;
+    top: 0.15rem;
 }
 
 #first-section > .content {
@@ -83,7 +89,6 @@ header > .links > .link-container {
 
 #first-section .text-block {
     color: var(--pale-white);
-    font-size: 1.125rem;
 }
 
 #first-section .title {
@@ -94,16 +99,20 @@ header > .links > .link-container {
 }
 
 #first-section .text {
+    font-size: 1.125rem;
     margin-bottom: 0.75rem;
 }
 
 #first-section .sign-up-button {
-    border: none;
+    display: inline-block;
     color: inherit;
     background-color: var(--bright-blue);
     padding: 0.5rem 2rem;
     border-radius: 0.25rem;
-    font-size: 1rem;
+}
+
+#first-section .sign-up-button:hover {
+    background-color: var(--brighter-blue);
 }
 
 #first-section .image-block > img {
