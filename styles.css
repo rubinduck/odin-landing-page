@@ -15,6 +15,10 @@ a {
 
 
 /* general styles*/
+* {
+    font-family: Verdana, sans-serif;
+}
+
 :root {
     --dark-blue: #1F2937;
     --main-white: #F9FaF8;
