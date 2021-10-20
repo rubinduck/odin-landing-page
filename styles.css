@@ -51,7 +51,6 @@ header {
     padding: 0.75rem;
 }
 
-
 header > .logo {
     font-size: 1.5rem;
     color: var(--main-white);
@@ -67,11 +66,8 @@ header > .links > .link-container {
     padding: 0.5rem;
 }
 
-#first-section .image {
-    display: inline-block;
-    width: 700px;
-    height: 250px;
-    background-color: grey;
+#first-section > .content {
+    gap: 7.5rem;
 }
 
 #first-section .text-block {
@@ -97,4 +93,9 @@ header > .links > .link-container {
     padding: 0.5rem 2rem;
     border-radius: 0.25rem;
     font-size: 1rem;
+}
+
+#first-section .image-block > img {
+    width: 550px;
+    height: auto;
 }
