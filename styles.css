@@ -1,5 +1,5 @@
 /* resests */
-body, ul {
+body, ul, figure {
     margin: 0;
     padding: 0;
 }
@@ -25,6 +25,7 @@ a {
     --pale-white: #E5E7EB;
     --bright-blue: #3882F6;
     --brighter-blue: #2774f0;
+    --extra-bold: 900;
 }
 
 section {
@@ -93,7 +94,7 @@ header > .links > .link-container > a:hover {
 #first-section .title {
     color: var(--main-white);
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: var(--extra-bold);
     margin-bottom: 0.5rem;
 }
 
@@ -117,4 +118,40 @@ header > .links > .link-container > a:hover {
 #first-section .image-block > img {
     width: 550px;
     height: auto;
+}
+
+
+
+/* section 2 styles */
+#second-section {
+    background-color: var(--main-white);
+}
+
+#second-section .content {
+    flex-direction: column;
+}
+
+#second-section .title {
+    font-size: 2.25rem;
+    font-weight: var(--extra-bold);
+    color: var(--dark-blue);
+    margin: 2rem 0;
+}
+
+#second-section .figures-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#second-section figure {
+    text-align: center;
+}
+
+#second-section figure > img {
+    box-sizing: border-box;
+    border: 4px solid var(--bright-blue);
+    border-radius: 1.25rem;
+    width: 200px;
+    height: 200px;
 }
