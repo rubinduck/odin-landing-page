@@ -32,6 +32,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
     height: 100vh;
 }
 
@@ -40,7 +41,7 @@ section > .content {
     align-items: center;
     max-width: 80%;
     width: 80%;
-    max-height: 100vh;
+    height: 80%;
     flex-grow: 1;
 }
 
@@ -48,10 +49,6 @@ section > .content {
 /* section 1 styles */
 #first-section {
     background-color: var(--dark-blue);
-}
-
-#first-section > .content {
-    justify-content: space-between;
 }
 
 header {
@@ -83,11 +80,15 @@ header > .links > .link-container > a:hover {
     top: 0.15rem;
 }
 
+
 #first-section > .content {
-    gap: 7.5rem;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 #first-section .text-block {
+    /* TODO think if constant can be replaced */
+    width: 400px;
     color: var(--pale-white);
 }
 
@@ -115,9 +116,31 @@ header > .links > .link-container > a:hover {
     background-color: var(--brighter-blue);
 }
 
+/* TODO figure out how sizing works */
+/* TODO make gap between image and text in wraped version smaller */
+#first-section .image-block {
+    height: 50%;
+}
+
 #first-section .image-block > img {
-    width: 550px;
-    height: auto;
+	display: block;
+	max-width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+
+
+@media (max-width: 1000px) {
+    #first-section > .content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #first-section .image-block,
+    #first-section .text-block {
+        width: 75%;
+    }
+
 }
 
 
