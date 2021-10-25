@@ -127,7 +127,6 @@ header > .links > .link-container > a:hover {
 }
 
 /* TODO figure out how sizing works */
-/* TODO make gap between image and text in wraped version smaller */
 #first-section .image-block > img {
 	display: block;
 	max-width: 100%;
@@ -140,6 +139,8 @@ header > .links > .link-container > a:hover {
     #first-section > .content {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 0;
+        margin-top: 2rem;
     }
 
     #first-section .image-block,
