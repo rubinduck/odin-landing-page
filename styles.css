@@ -33,7 +33,6 @@ section {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    height: 100vh;
 }
 
 section > .content {
@@ -41,7 +40,6 @@ section > .content {
     align-items: center;
     max-width: 80%;
     width: 80%;
-    height: 80%;
     flex-grow: 1;
 }
 
@@ -49,6 +47,7 @@ section > .content {
 /* section 1 styles */
 #first-section {
     background-color: var(--dark-blue);
+    height: 100vh;
 }
 
 #first-section > * {
@@ -87,6 +86,7 @@ header > .links > .link-container > a:hover {
     justify-content: space-between;
     flex-direction: row-reverse;
     gap: 1rem;
+    height: 80%;
 }
 
 #first-section .text-block,
@@ -165,6 +165,10 @@ header > .links > .link-container > a:hover {
 /* section 2 styles */
 #second-section {
     background-color: var(--main-white);
+    /* Height is set for each section individually because second section becames bigger
+    when container wraps
+    TODO think how to make it better */
+    height: auto;
 }
 
 #second-section .content {
@@ -178,9 +182,12 @@ header > .links > .link-container > a:hover {
     margin: 2rem 0;
 }
 
+/* TODO make wraped content lay out better */
 #second-section .figures-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2.5%;
+    flex-wrap: wrap;
     width: 100%;
 }
 
