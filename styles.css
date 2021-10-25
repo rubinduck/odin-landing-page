@@ -36,6 +36,10 @@ section {
     height: 100vh;
 }
 
+section > * {
+    width: 80%;
+}
+
 section > .content {
     display: flex;
     align-items: center;
@@ -48,10 +52,6 @@ section > .content {
 /* section 1 styles */
 #first-section {
     background-color: var(--dark-blue);
-}
-
-#first-section > * {
-    width: 80%;
 }
 
 header {
