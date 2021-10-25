@@ -126,7 +126,6 @@ header > .links > .link-container > a:hover {
     background-color: var(--brighter-blue);
 }
 
-/* TODO figure out how sizing works */
 #first-section .image-block > img {
 	display: block;
 	max-width: 100%;
@@ -136,22 +135,30 @@ header > .links > .link-container > a:hover {
 
 
 @media (max-width: 1000px) {
+    #first-section > * {
+        width: 65%;
+    }
+
     #first-section > .content {
         flex-wrap: wrap;
         justify-content: center;
         gap: 0;
-        margin-top: 2rem;
     }
 
     #first-section .image-block,
     #first-section .text-block {
-        width: 75%;
-        max-width: 75%;
+        width: 100%;
+        max-width: 100%;
         height: auto;
     }
 
 }
 
+@media (max-width: 800px) {
+    #first-section > * {
+        width: 75%;
+    }
+}
 
 
 /* section 2 styles */
