@@ -51,6 +51,7 @@ section > .content {
     background-color: var(--dark-blue);
 }
 
+/* TODO fix header for narrow page */
 header {
     display: flex;
     justify-content: space-between;
@@ -87,8 +88,12 @@ header > .links > .link-container > a:hover {
     gap: 1rem;
 }
 
-#first-section .text-block {
+#first-section .text-block,
+#first-section .image-block {
     height: 50%;
+}
+
+#first-section .text-block {
     max-width: 50%;
     color: var(--pale-white);
     display: flex;
@@ -123,10 +128,6 @@ header > .links > .link-container > a:hover {
 
 /* TODO figure out how sizing works */
 /* TODO make gap between image and text in wraped version smaller */
-#first-section .image-block {
-    height: 50%;
-}
-
 #first-section .image-block > img {
 	display: block;
 	max-width: 100%;
