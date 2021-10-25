@@ -84,6 +84,7 @@ header > .links > .link-container > a:hover {
 #first-section > .content {
     justify-content: space-between;
     flex-direction: row-reverse;
+    gap: 1rem;
 }
 
 #first-section .text-block {
