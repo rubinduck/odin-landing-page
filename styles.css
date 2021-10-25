@@ -36,22 +36,19 @@ section {
     height: 100vh;
 }
 
-section > * {
-    width: 80%;
-}
-
 section > .content {
     display: flex;
     align-items: center;
-    max-width: 80%;
-    width: 80%;
-    flex-grow: 1;
 }
 
 
 /* section 1 styles */
 #first-section {
     background-color: var(--dark-blue);
+}
+
+#first-section > * {
+    width: 80%;
 }
 
 header {
@@ -138,10 +135,7 @@ header > .links > .link-container > a:hover {
 /* section 2 styles */
 #second-section {
     background-color: var(--main-white);
-}
-
-#second-section .content {
-    flex-direction: column;
+    justify-content: center;
 }
 
 #second-section .title {
@@ -160,7 +154,7 @@ header > .links > .link-container > a:hover {
 
 #second-section figure {
     text-align: center;
-    margin: 1rem;
+    margin: 2.6rem;
 }
 
 #second-section figure > img {
