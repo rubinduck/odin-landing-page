@@ -87,9 +87,13 @@ header > .links > .link-container > a:hover {
 }
 
 #first-section .text-block {
-    /* TODO think if constant can be replaced */
-    width: 400px;
+    height: 50%;
+    max-width: 50%;
     color: var(--pale-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 #first-section .title {
@@ -139,6 +143,8 @@ header > .links > .link-container > a:hover {
     #first-section .image-block,
     #first-section .text-block {
         width: 75%;
+        max-width: 75%;
+        height: auto;
     }
 
 }
