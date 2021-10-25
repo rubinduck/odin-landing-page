@@ -55,7 +55,6 @@ section > .content {
     width: 80%;
 }
 
-/* TODO fix header for narrow page */
 header {
     display: flex;
     justify-content: space-between;
