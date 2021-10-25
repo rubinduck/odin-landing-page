@@ -149,6 +149,7 @@ header > .links > .link-container > a:hover {
     font-weight: var(--extra-bold);
     color: var(--dark-blue);
     margin: 2rem 0;
+    text-align: center;
 }
 
 #second-section .figures-container {
