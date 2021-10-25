@@ -51,12 +51,15 @@ section > .content {
     background-color: var(--dark-blue);
 }
 
+#first-section > * {
+    width: 80%;
+}
+
 /* TODO fix header for narrow page */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
     max-width: 80%;
     padding: 0.75rem;
 }
@@ -80,7 +83,6 @@ header > .links > .link-container > a:hover {
     position: relative;
     top: 0.15rem;
 }
-
 
 #first-section > .content {
     justify-content: space-between;
