@@ -151,24 +151,23 @@ header > .links > .link-container > a:hover {
     margin: 2rem 0;
 }
 
-/* TODO make wraped content lay out better */
 #second-section .figures-container {
     display: flex;
-    justify-content: center;
-    gap: 2.5%;
+    justify-content: space-between;
     width: 100%;
 }
 
 #second-section figure {
     text-align: center;
+    margin: 1rem;
 }
 
 #second-section figure > img {
     box-sizing: border-box;
     border: 4px solid var(--bright-blue);
     border-radius: 1.25rem;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 
@@ -204,13 +203,19 @@ header > .links > .link-container > a:hover {
     /* second-sectioun */
     #second-section > .content > .figures-container {
         flex-wrap: wrap;
-        justify-content: start;
     }
 
 }
 
 @media (max-width: 800px) {
+    /* first section */
     #first-section > * {
         width: 75%;
+    }
+
+
+    /* second-section */
+    #second-section > .content > .figures-container {
+        justify-content: space-evenly;
     }
 }
