@@ -243,10 +243,14 @@ header > .links > .link-container > a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-white);
+    color: var(--pale-white);
     height: 20%;
     width: 100%;
     background-color: var(--dark-blue);
+}
+
+#fourth-section footer a {
+    color: var(--main-white)
 }
 
 
