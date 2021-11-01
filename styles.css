@@ -41,6 +41,19 @@ section > .content {
     align-items: center;
 }
 
+.sign-up-button {
+    display: inline-block;
+    color: inherit;
+    background-color: var(--bright-blue);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.sign-up-button:hover {
+    background-color: var(--brighter-blue);
+    cursor: pointer;
+}
+
 
 /* section 1 styles */
 #first-section {
@@ -111,18 +124,6 @@ header > .links > .link-container > a:hover {
 #first-section .text {
     font-size: 1.125rem;
     margin-bottom: 0.75rem;
-}
-
-#first-section .sign-up-button {
-    display: inline-block;
-    color: inherit;
-    background-color: var(--bright-blue);
-    padding: 0.5rem 2rem;
-    border-radius: 0.5rem;
-}
-
-#first-section .sign-up-button:hover {
-    background-color: var(--brighter-blue);
 }
 
 #first-section .image-block > img {
