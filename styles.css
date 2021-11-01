@@ -167,6 +167,36 @@ header > .links > .link-container > a:hover {
 }
 
 
+/* third section */
+#third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pale-white);
+}
+
+#third-section .content {
+    width: 50%;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.quotation > .text {
+    font-style: italic;
+}
+
+.quotation > .author {
+    font-weight: 600;
+}
+
+
 /* Content of all sections wraps on same width */
 @media (max-width: 1000px) {
     /* general styles */
@@ -200,6 +230,11 @@ header > .links > .link-container > a:hover {
         flex-wrap: wrap;
     }
 
+
+    /* third section*/
+    #third-section .content {
+        width: 60%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -212,5 +247,11 @@ header > .links > .link-container > a:hover {
     /* second-section */
     #second-section > .content > .figures-container {
         justify-content: space-evenly;
+    }
+
+
+    /* third section*/
+    #third-section .content {
+        width: 75%;
     }
 }
