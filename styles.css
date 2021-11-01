@@ -200,7 +200,6 @@ header > .links > .link-container > a:hover {
 
 /* Content of all sections wraps on same width */
 @media (max-width: 1000px) {
-    /* general styles */
     section {
         /* height auto allows to scretch section depending on height of wrapped
            elements */
@@ -208,7 +207,6 @@ header > .links > .link-container > a:hover {
     }
 
 
-    /* first section */
     #first-section > * {
         width: 65%;
     }
@@ -226,32 +224,27 @@ header > .links > .link-container > a:hover {
     }
 
 
-    /* second-sectioun */
     #second-section > .content > .figures-container {
         flex-wrap: wrap;
     }
 
 
-    /* third section*/
     #third-section .content {
         width: 60%;
     }
 }
 
 @media (max-width: 800px) {
-    /* first section */
     #first-section > * {
         width: 75%;
     }
 
 
-    /* second-section */
     #second-section > .content > .figures-container {
         justify-content: space-evenly;
     }
 
 
-    /* third section*/
     #third-section .content {
         width: 75%;
     }
