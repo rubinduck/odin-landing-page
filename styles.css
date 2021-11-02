@@ -295,6 +295,10 @@ header .links a:focus {
     #third-section .content {
         width: 60%;
     }
+
+    #fourth-section {
+        height: 100vh;
+    }
 }
 
 @media (max-width: 800px) {
