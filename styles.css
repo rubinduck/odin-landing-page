@@ -100,7 +100,7 @@ header .links a:focus {
 }
 
 #first-section .text-block,
-#first-section .image-block {
+#first-section .image-container {
     height: 50%;
 }
 
@@ -125,7 +125,7 @@ header .links a:focus {
     margin-bottom: 0.75rem;
 }
 
-#first-section .image-block > img {
+#first-section .image-container > img {
 	display: block;
 	max-width: 100%;
 	height: 100%;
@@ -279,7 +279,7 @@ header .links a:focus {
         justify-content: center;
     }
 
-    #first-section .image-block,
+    #first-section .image-container,
     #first-section .text-block {
         width: 100%;
         max-width: 100%;
