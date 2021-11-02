@@ -36,11 +36,6 @@ section {
     height: 100vh;
 }
 
-section > .content-container {
-    display: flex;
-    align-items: center;
-}
-
 .sign-up-button {
     display: inline-block;
     color: inherit;
@@ -95,6 +90,8 @@ header .links a:focus {
 }
 
 #first-section > .content-container {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
     gap: 1rem;
@@ -153,7 +150,6 @@ header .links a:focus {
 #second-section .figures-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 #second-section figure {
@@ -180,6 +176,8 @@ header .links a:focus {
 }
 
 #third-section .content-container {
+    display: flex;
+    align-items: center;
     width: 50%;
 }
 
@@ -206,6 +204,8 @@ header .links a:focus {
 }
 
 #fourth-section .content-container {
+    display: flex;
+    align-items: center;
     height: 80%;
     width: 70%;
 }
@@ -274,7 +274,7 @@ header .links a:focus {
         width: 65%;
     }
 
-    #first-section > .content-container {
+    #first-section .content-container {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -287,7 +287,7 @@ header .links a:focus {
     }
 
 
-    #second-section > .content-container > .figures-container {
+    #second-section .figures-container {
         flex-wrap: wrap;
     }
 
@@ -307,7 +307,7 @@ header .links a:focus {
     }
 
 
-    #second-section > .content-container > .figures-container {
+    #second-section .figures-container {
         justify-content: space-evenly;
     }
 
