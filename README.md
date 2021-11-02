@@ -1,7 +1,7 @@
 # odin-landing-page
 ## [Live demo](https://github.com/rubinduck/odin-landing-page)
 
-Landing page project from [Odin Project](https://www.theodinproject.com) fondations course
+Landing page project for [Odin Project](https://www.theodinproject.com) fondations course
 
 ![First wide site screenshot](./resourses/1.png)
 ![Second wide site screenshot](./resourses/2.png)
