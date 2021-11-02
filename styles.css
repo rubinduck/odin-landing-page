@@ -36,7 +36,7 @@ section {
     height: 100vh;
 }
 
-section > .content {
+section > .content-container {
     display: flex;
     align-items: center;
 }
@@ -94,7 +94,7 @@ header .links a:focus {
     top: 0.15rem;
 }
 
-#first-section > .content {
+#first-section > .content-container {
     justify-content: space-between;
     flex-direction: row-reverse;
     gap: 1rem;
@@ -179,7 +179,7 @@ header .links a:focus {
     background-color: var(--pale-white);
 }
 
-#third-section .content {
+#third-section .content-container {
     width: 50%;
 }
 
@@ -205,7 +205,7 @@ header .links a:focus {
     background-color: var(--main-white);
 }
 
-#fourth-section .content {
+#fourth-section .content-container {
     height: 80%;
     width: 70%;
 }
@@ -274,7 +274,7 @@ header .links a:focus {
         width: 65%;
     }
 
-    #first-section > .content {
+    #first-section > .content-container {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -287,12 +287,12 @@ header .links a:focus {
     }
 
 
-    #second-section > .content > .figures-container {
+    #second-section > .content-container > .figures-container {
         flex-wrap: wrap;
     }
 
 
-    #third-section .content {
+    #third-section .content-container {
         width: 60%;
     }
 
@@ -307,17 +307,17 @@ header .links a:focus {
     }
 
 
-    #second-section > .content > .figures-container {
+    #second-section > .content-container > .figures-container {
         justify-content: space-evenly;
     }
 
 
-    #third-section .content {
+    #third-section .content-container {
         width: 75%;
     }
 
 
-    #fourth-section .content {
+    #fourth-section .content-container {
         width: 80%;
     }
 }
