@@ -5,9 +5,8 @@ Landing page project from [Odin Project](https://www.theodinproject.com) fondati
 
 ![First wide site screenshot](./resourses/1.png)
 ![Second wide site screenshot](./resourses/2.png)
-![First narrow site screenshot](./resourses/3.png)
-
-![Second narrow site screenshot](./resourses/4.png)
+<img alt='First narrow site screenshot' src='./resourses/3.png' width= '30%'>
+<img alt='Second narrow site screenshot' src='./resourses/4.png' width='30%'>
 
 # photo authors
 1. Photo in first section:
