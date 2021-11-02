@@ -255,6 +255,12 @@ header > .links > .link-container > a:focus {
     color: var(--main-white)
 }
 
+#fourth-section footer a:hover,
+#fourth-section footer a:focus {
+    position: relative;
+    top: 0.15rem;
+}
+
 
 /* Content of all sections wraps on same width */
 @media (max-width: 1000px) {
