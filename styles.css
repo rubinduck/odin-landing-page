@@ -73,12 +73,13 @@ header > .logo {
 }
 
 header > .links {
+    display: flex;
     font-size: 1.125rem;
     color: var(--pale-white);
 }
 
 header > .links > .link-container {
-    display: inline-block;
+    display: block;
     padding: 0 0.75rem;
 }
 
