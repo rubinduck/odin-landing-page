@@ -64,7 +64,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80%;
     padding: 0.75rem;
 }
 
@@ -105,7 +104,6 @@ header .links a:focus {
 }
 
 #first-section .text-block {
-    max-width: 50%;
     color: var(--pale-white);
     display: flex;
     flex-direction: column;
