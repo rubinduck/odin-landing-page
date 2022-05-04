@@ -1,5 +1,5 @@
 # odin-landing-page
-## [Live demo](https://github.com/rubinduck/odin-landing-page)
+## [Live demo](https://rubinduck.github.io/odin-landing-page/)
 
 Landing page project for [Odin Project](https://www.theodinproject.com) fondations course
 
